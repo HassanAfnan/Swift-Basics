@@ -15,6 +15,10 @@
 		44C5F79825E29E4700914934 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44C5F79625E29E4700914934 /* LaunchScreen.storyboard */; };
 		44C5F7A325E29E4800914934 /* segmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C5F7A225E29E4800914934 /* segmentTests.swift */; };
 		44C5F7AE25E29E4800914934 /* segmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C5F7AD25E29E4800914934 /* segmentUITests.swift */; };
+		44C5F7C225E2BFF800914934 /* linkdin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 44C5F7BE25E2BFF800914934 /* linkdin.jpg */; };
+		44C5F7C325E2BFF800914934 /* amazon.png in Resources */ = {isa = PBXBuildFile; fileRef = 44C5F7BF25E2BFF800914934 /* amazon.png */; };
+		44C5F7C425E2BFF800914934 /* google.png in Resources */ = {isa = PBXBuildFile; fileRef = 44C5F7C025E2BFF800914934 /* google.png */; };
+		44C5F7CD25E2C07700914934 /* Facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 44C5F7CC25E2C07700914934 /* Facebook.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		44C5F7A925E29E4800914934 /* segmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = segmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		44C5F7AD25E29E4800914934 /* segmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = segmentUITests.swift; sourceTree = "<group>"; };
 		44C5F7AF25E29E4800914934 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44C5F7BE25E2BFF800914934 /* linkdin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = linkdin.jpg; path = Assets.xcassets/linkdin.jpg; sourceTree = "<group>"; };
+		44C5F7BF25E2BFF800914934 /* amazon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = amazon.png; path = Assets.xcassets/amazon.png; sourceTree = "<group>"; };
+		44C5F7C025E2BFF800914934 /* google.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = google.png; path = Assets.xcassets/google.png; sourceTree = "<group>"; };
+		44C5F7CC25E2C07700914934 /* Facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Facebook.png; path = ../../../Facebook.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +112,10 @@
 				44C5F78F25E29E4300914934 /* ViewController.swift */,
 				44C5F79125E29E4300914934 /* Main.storyboard */,
 				44C5F79425E29E4700914934 /* Assets.xcassets */,
+				44C5F7CC25E2C07700914934 /* Facebook.png */,
+				44C5F7BF25E2BFF800914934 /* amazon.png */,
+				44C5F7C025E2BFF800914934 /* google.png */,
+				44C5F7BE25E2BFF800914934 /* linkdin.jpg */,
 				44C5F79625E29E4700914934 /* LaunchScreen.storyboard */,
 				44C5F79925E29E4700914934 /* Info.plist */,
 			);
@@ -233,7 +245,11 @@
 			files = (
 				44C5F79825E29E4700914934 /* LaunchScreen.storyboard in Resources */,
 				44C5F79525E29E4700914934 /* Assets.xcassets in Resources */,
+				44C5F7CD25E2C07700914934 /* Facebook.png in Resources */,
 				44C5F79325E29E4300914934 /* Main.storyboard in Resources */,
+				44C5F7C325E2BFF800914934 /* amazon.png in Resources */,
+				44C5F7C425E2BFF800914934 /* google.png in Resources */,
+				44C5F7C225E2BFF800914934 /* linkdin.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
