@@ -9,6 +9,13 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var lbl: UILabel!
+    
+    
+    @IBAction func ValueChanged(_ sender: UIStepper) {
+        lbl.text = Int(sender.value).description
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
