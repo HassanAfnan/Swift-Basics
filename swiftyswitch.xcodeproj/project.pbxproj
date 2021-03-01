@@ -15,6 +15,7 @@
 		44CEA17025ED6209002A6F4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44CEA16E25ED6209002A6F4F /* LaunchScreen.storyboard */; };
 		44CEA17B25ED620A002A6F4F /* swiftyswitchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CEA17A25ED620A002A6F4F /* swiftyswitchTests.swift */; };
 		44CEA18625ED620A002A6F4F /* swiftyswitchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CEA18525ED620A002A6F4F /* swiftyswitchUITests.swift */; };
+		44CEA19725ED62D4002A6F4F /* SwiftySwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CEA19625ED62D3002A6F4F /* SwiftySwitch.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		44CEA18125ED620A002A6F4F /* swiftyswitchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swiftyswitchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		44CEA18525ED620A002A6F4F /* swiftyswitchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftyswitchUITests.swift; sourceTree = "<group>"; };
 		44CEA18725ED620A002A6F4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44CEA19625ED62D3002A6F4F /* SwiftySwitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftySwitch.swift; path = ../../switchcustomdemo/switchcustomdemo/SwiftySwitch.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		44CEA16225ED6208002A6F4F /* swiftyswitch */ = {
 			isa = PBXGroup;
 			children = (
+				44CEA19625ED62D3002A6F4F /* SwiftySwitch.swift */,
 				44CEA16325ED6208002A6F4F /* AppDelegate.swift */,
 				44CEA16525ED6208002A6F4F /* SceneDelegate.swift */,
 				44CEA16725ED6208002A6F4F /* ViewController.swift */,
@@ -259,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				44CEA16825ED6208002A6F4F /* ViewController.swift in Sources */,
+				44CEA19725ED62D4002A6F4F /* SwiftySwitch.swift in Sources */,
 				44CEA16425ED6208002A6F4F /* AppDelegate.swift in Sources */,
 				44CEA16625ED6208002A6F4F /* SceneDelegate.swift in Sources */,
 			);
