@@ -15,6 +15,7 @@
 		44CEA1F325ED69D0002A6F4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44CEA1F125ED69D0002A6F4F /* LaunchScreen.storyboard */; };
 		44CEA1FE25ED69D0002A6F4F /* customstepperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CEA1FD25ED69D0002A6F4F /* customstepperTests.swift */; };
 		44CEA20925ED69D0002A6F4F /* customstepperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CEA20825ED69D0002A6F4F /* customstepperUITests.swift */; };
+		44CEA21A25ED6A33002A6F4F /* GMStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CEA21925ED6A33002A6F4F /* GMStepper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		44CEA20425ED69D0002A6F4F /* customstepperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = customstepperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		44CEA20825ED69D0002A6F4F /* customstepperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customstepperUITests.swift; sourceTree = "<group>"; };
 		44CEA20A25ED69D0002A6F4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44CEA21925ED6A33002A6F4F /* GMStepper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GMStepper.swift; path = ../../../../Downloads/GMStepper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		44CEA1E525ED69CD002A6F4F /* customstepper */ = {
 			isa = PBXGroup;
 			children = (
+				44CEA21925ED6A33002A6F4F /* GMStepper.swift */,
 				44CEA1E625ED69CD002A6F4F /* AppDelegate.swift */,
 				44CEA1E825ED69CD002A6F4F /* SceneDelegate.swift */,
 				44CEA1EA25ED69CD002A6F4F /* ViewController.swift */,
@@ -259,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				44CEA1EB25ED69CD002A6F4F /* ViewController.swift in Sources */,
+				44CEA21A25ED6A33002A6F4F /* GMStepper.swift in Sources */,
 				44CEA1E725ED69CD002A6F4F /* AppDelegate.swift in Sources */,
 				44CEA1E925ED69CD002A6F4F /* SceneDelegate.swift in Sources */,
 			);
