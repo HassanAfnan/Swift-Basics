@@ -15,6 +15,10 @@
 		4445749325F6A09B00F4EE05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4445749125F6A09B00F4EE05 /* LaunchScreen.storyboard */; };
 		4445749E25F6A09B00F4EE05 /* checkboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4445749D25F6A09B00F4EE05 /* checkboxTests.swift */; };
 		444574A925F6A09C00F4EE05 /* checkboxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444574A825F6A09C00F4EE05 /* checkboxUITests.swift */; };
+		444574C225F6A30D00F4EE05 /* BEMCheckBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 444574BA25F6A30C00F4EE05 /* BEMCheckBox.m */; };
+		444574C325F6A30D00F4EE05 /* BEMAnimationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 444574BB25F6A30C00F4EE05 /* BEMAnimationManager.m */; };
+		444574C425F6A30D00F4EE05 /* BEMPathManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 444574BD25F6A30C00F4EE05 /* BEMPathManager.m */; };
+		444574C525F6A30D00F4EE05 /* BEMCheckBoxGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 444574C025F6A30D00F4EE05 /* BEMCheckBoxGroup.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,15 @@
 		444574A425F6A09C00F4EE05 /* checkboxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = checkboxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		444574A825F6A09C00F4EE05 /* checkboxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = checkboxUITests.swift; sourceTree = "<group>"; };
 		444574AA25F6A09C00F4EE05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		444574B925F6A30C00F4EE05 /* checkbox-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "checkbox-Bridging-Header.h"; sourceTree = "<group>"; };
+		444574BA25F6A30C00F4EE05 /* BEMCheckBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BEMCheckBox.m; path = ../../../../Downloads/demo614checkbox/BEMCheckBox.m; sourceTree = "<group>"; };
+		444574BB25F6A30C00F4EE05 /* BEMAnimationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BEMAnimationManager.m; path = ../../../../Downloads/demo614checkbox/BEMAnimationManager.m; sourceTree = "<group>"; };
+		444574BC25F6A30C00F4EE05 /* BEMCheckBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BEMCheckBox.h; path = ../../../../Downloads/demo614checkbox/BEMCheckBox.h; sourceTree = "<group>"; };
+		444574BD25F6A30C00F4EE05 /* BEMPathManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BEMPathManager.m; path = ../../../../Downloads/demo614checkbox/BEMPathManager.m; sourceTree = "<group>"; };
+		444574BE25F6A30C00F4EE05 /* BEMCheckBoxGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BEMCheckBoxGroup.h; path = ../../../../Downloads/demo614checkbox/BEMCheckBoxGroup.h; sourceTree = "<group>"; };
+		444574BF25F6A30D00F4EE05 /* BEMAnimationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BEMAnimationManager.h; path = ../../../../Downloads/demo614checkbox/BEMAnimationManager.h; sourceTree = "<group>"; };
+		444574C025F6A30D00F4EE05 /* BEMCheckBoxGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BEMCheckBoxGroup.m; path = ../../../../Downloads/demo614checkbox/BEMCheckBoxGroup.m; sourceTree = "<group>"; };
+		444574C125F6A30D00F4EE05 /* BEMPathManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BEMPathManager.h; path = ../../../../Downloads/demo614checkbox/BEMPathManager.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +112,14 @@
 		4445748525F6A09A00F4EE05 /* checkbox */ = {
 			isa = PBXGroup;
 			children = (
+				444574BF25F6A30D00F4EE05 /* BEMAnimationManager.h */,
+				444574BB25F6A30C00F4EE05 /* BEMAnimationManager.m */,
+				444574BC25F6A30C00F4EE05 /* BEMCheckBox.h */,
+				444574BA25F6A30C00F4EE05 /* BEMCheckBox.m */,
+				444574BE25F6A30C00F4EE05 /* BEMCheckBoxGroup.h */,
+				444574C025F6A30D00F4EE05 /* BEMCheckBoxGroup.m */,
+				444574C125F6A30D00F4EE05 /* BEMPathManager.h */,
+				444574BD25F6A30C00F4EE05 /* BEMPathManager.m */,
 				4445748625F6A09A00F4EE05 /* AppDelegate.swift */,
 				4445748825F6A09A00F4EE05 /* SceneDelegate.swift */,
 				4445748A25F6A09A00F4EE05 /* ViewController.swift */,
@@ -106,6 +127,7 @@
 				4445748F25F6A09B00F4EE05 /* Assets.xcassets */,
 				4445749125F6A09B00F4EE05 /* LaunchScreen.storyboard */,
 				4445749425F6A09B00F4EE05 /* Info.plist */,
+				444574B925F6A30C00F4EE05 /* checkbox-Bridging-Header.h */,
 			);
 			path = checkbox;
 			sourceTree = "<group>";
@@ -195,6 +217,7 @@
 				TargetAttributes = {
 					4445748225F6A09A00F4EE05 = {
 						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1240;
 					};
 					4445749825F6A09B00F4EE05 = {
 						CreatedOnToolsVersion = 12.4;
@@ -259,8 +282,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				4445748B25F6A09A00F4EE05 /* ViewController.swift in Sources */,
+				444574C425F6A30D00F4EE05 /* BEMPathManager.m in Sources */,
+				444574C525F6A30D00F4EE05 /* BEMCheckBoxGroup.m in Sources */,
+				444574C325F6A30D00F4EE05 /* BEMAnimationManager.m in Sources */,
 				4445748725F6A09A00F4EE05 /* AppDelegate.swift in Sources */,
 				4445748925F6A09A00F4EE05 /* SceneDelegate.swift in Sources */,
+				444574C225F6A30D00F4EE05 /* BEMCheckBox.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,6 +463,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = checkbox/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -444,6 +472,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.getweys.checkbox;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "checkbox/checkbox-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -454,6 +484,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = checkbox/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -462,6 +493,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.getweys.checkbox;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "checkbox/checkbox-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
